@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px 40px 34px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.header__btn {
+    display: flex;
+    width: 92px;
+    height: 29px;
+}
+
+.btn-txt {
+    margin: 0;
+    padding-right: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+    color: var(--light-grey);
+    user-select: none;
+}
+
+.try__app {
+    margin-left: 125px;
+}

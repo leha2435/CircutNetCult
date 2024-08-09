@@ -1,0 +1,17 @@
+:root {
+--light-grey: #cadce3;
+--dark-primary: #1a3640;
+--darker: rgba(202, 220, 227, 0.2);
+--orange-dark: #c96c25;
+--blue-dark: #2135eb;
+--blue-light: #6674f0;
+--white: #dfeef4;
+--orange-light: #ed924d;
+
+--font-family: "Inter", sans-serif;
+
+--main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+
+--container-width: 1440px;
+--container-offset: 15px;
+}

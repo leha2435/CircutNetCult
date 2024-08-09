@@ -1,0 +1,126 @@
+.meet__content-item {
+    width: 654px;
+}
+
+.meet__rectngle-box {
+    padding-bottom: 22px;
+    width: 652px;
+}
+
+.meet__rec {
+    position: relative;
+    width: 100%;
+    max-width: 652px;
+}
+
+.rect__img {
+    display: block;
+    width: 100%;
+}
+
+.hero__rect-title {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 67%;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--light-grey);
+}
+
+.meet__team-svg {
+    padding-left: 7px;
+}
+
+.hero__rect-descr {
+    display: flex;
+    position: absolute;
+    top: 43%;
+    left: 67%;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--light-grey);
+}
+
+.rect__btn-text {
+    position: absolute;
+    top: 86%;
+    left: 79%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+    color: #cadce3;
+    text-decoration: none;
+}
+.rect__btn-text::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #cadce3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.rect__btn-text:hover::after {
+    opacity: 1;
+}
+.meet__rec-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 55px;
+    width: 65px;
+    height: 65px;
+    top: 83%;
+    left: 67%;
+    background-color: #2135eb;
+    transition: 0.4s, color 0.4s;
+}
+.meet__rec-btn:hover {
+    background-color: #6674F0;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+.meet__rec-box:hover .rect__btn-text::after {
+    opacity: 1;
+}
+.meet__rec-box:hover .meet__rec-btn {
+    background-color: #6674F0;
+}
+
+.rec__svg {
+    margin-left: 3px;
+}
+
+.right__content {
+    display: flex;
+}
+
+/* NAV BATTONS */
+
+.nav__item {
+    position: relative;
+    text-decoration: none
+}
+
+.nav__item::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--light-grey);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nav__item:hover:after {
+    opacity: 1;
+}
+
+

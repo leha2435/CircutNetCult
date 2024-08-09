@@ -1,0 +1,49 @@
+.contact__hero {
+    background-image: url(../../img/frame-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 591px;
+}
+
+.btn__contact-hero {
+    border-radius: 51px;
+    border-color: var(--blue-dark);
+    margin-bottom: 24px;
+}
+
+.logo {
+    padding-bottom: 98px;
+}
+
+.hero__text-btn {
+    width: 163px;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--8);
+    font-family: var(--font-family);
+}
+
+.btn__line {
+    position: relative;
+}
+
+.hero__text-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--light-grey);
+}
+
+.hero__descr {
+    padding-bottom: 24px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+    color: var(--light-grey);
+    font-family: var(--font-family);
+}
+
+.border {
+    padding-bottom: 26px;
+}

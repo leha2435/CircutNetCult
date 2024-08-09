@@ -1,0 +1,125 @@
+.btn__contact-hero {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 218px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--blue-dark);
+    transition: 0.4s, color 0.4s;
+    user-select: none;
+}
+
+.btn__contact-hero:hover {
+    background-color: var(--blue-light);
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.btn__contact-text {
+    z-index: 1;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--white);
+}
+
+.hero__btn-line-left {
+    position: absolute;
+    top: 1%;
+    left: 31%;
+}
+
+.hero__btn-line-midle {
+    position: absolute;
+    top: 0%;
+    left: 33%;
+}
+
+.hero__btn-line-right {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+}
+
+/* TRY APP BTN - HEADER */
+
+.btn__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+}
+
+.hero__button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: var(--blue-dark);
+    transition: 0.4s, color 0.4s;
+}
+
+.hero__button:hover {
+    background-color: var(--blue-light);
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.try__app-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+    color: #cadce3;
+    text-decoration: none;
+    position: relative;
+}
+
+.try__app-text::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #cadce3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.try__app-text:hover::after {
+    opacity: 1;
+}
+
+.btn__header:hover .try__app-text::after {
+    opacity: 1;
+}
+
+.btn__header:hover .hero__button {
+    background-color: #6674F0;
+}
+
+.btn__arrow {
+    z-index: 1;
+    position: absolute;
+    top: 27.2%;
+    left: 26.3%;
+}
+
+.btn__line-1 {
+    position: absolute;
+    top: 20.2%;
+    left: 11.3%;
+}
+
+.btn__line-2 {
+    position: absolute;
+    top: 22.2%;
+    left: 14.3%;
+}
+
+.btn__line-3 {
+    position: absolute;
+    top: 24.2%;
+    left: 16.3%;
+}
